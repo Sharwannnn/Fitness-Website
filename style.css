@@ -1,0 +1,265 @@
+html{
+    scroll-behavior: smooth;
+  }
+  body {
+    background: url("img.jpg");
+    margin: 0;
+  }
+  .nav-bar {
+    color: white;
+    background-color: #00000055;
+    height: 86px;
+    background-attachment: fixed;
+  }
+  .left {
+    display: inline;
+    float: left;
+    padding: 30px 43px;
+  }
+  .center {
+    display: inline;
+    position: absolute;
+    left: 40vw;
+    font-size: 18px;
+    font-family: "Teko", sans-serif;
+    padding: 30px 43px;
+  }
+  .with {
+    color: white;
+  }
+  .right {
+    display: inline;
+    float: right;
+    background-color: coral;
+    padding: 17px 43px;
+    font-size: 18px;
+    font-family: "Teko", sans-serif;
+    margin-top: 11px;
+margin-right: 11px;
+  }
+  .nav-link {
+    padding: 0 40px;
+    display: inline;
+  }
+  .logo {
+    width: 125px;
+    position: absolute;
+    margin: -46px;
+  }
+
+  .text {
+    color: white;
+
+  }
+  .animate__animated {
+    margin-left: 60px;
+  }
+  .gap {
+    margin-top: 50px;
+    animation-delay: 0.3s;
+    padding-bottom: 700px;
+  }
+  .color {
+    color: tomato;
+    animation-delay: 0s;
+    /* font-family: "Abel", sans-serif; */
+    font-family: "Teko", sans-serif;
+    font-weight: 300;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .black {
+    background-color: white;
+    /* width: 50% 50%; */
+  }
+  .right-text {
+    display: block;
+    width: 50%;
+    float: right;
+
+  }
+  .left-image {
+    padding-top: 120px;
+    margin-bottom: 130px;
+  }
+  .man {
+    width: 500px;
+    padding-left: 120px;
+  }
+  a:hover {
+    background-color: coral;
+  }
+  .h2 {
+    font-size: 44px;
+    font-family: "Teko", sans-serif;
+    font-weight: 700;
+    padding-right: 135px;
+  }
+  .left-ja {
+    
+    font-family: "Teko", sans-serif;
+    font-size: 16px;
+    padding-right: 262px;
+    font-family: "Barlow",sans-serif;
+    font-weight: 500;
+  }
+  .different{
+    font-family: "Barlow",sans-serif;
+    font-weight: 300;
+  }
+  .button2{
+    background-color: coral;
+padding: 17px 43px;
+font-size: 18px;
+font-family: "Teko", sans-serif;
+width: 106px;
+
+  }
+  .black-background{
+    background-color: black;
+    color: white;
+    padding-top: 120px;
+  }
+  .service{
+    margin-left: 75px;
+  }
+  .push-font{
+    font-family: 'Abel', sans-serif;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Teko', sans-serif;
+    /* font-weight: 1000; */
+    font-size: 50px;
+
+  }
+  .button3{
+    position: relative;
+    background-color: coral;
+padding: 17px 43px;
+font-size: 18px;
+font-family: "Teko", sans-serif;
+width: 106px;
+margin-left: 750px;
+bottom: 100px;
+left: 360px;
+  }
+
+  .container{
+    box-sizing: border-box;
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+    /* background: rgba(238, 235, 235, 0.2); */
+  }
+  .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: rgb(255, 255, 255);
+    float: left;
+    margin: 15px;
+    bottom: 180px;
+    /* box-sizing: border-box; */
+    border-radius: 20px;
+  }
+  .bla{
+    font-family: "Teko", sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+  }
+  .first-B{
+    color: black;
+    margin-left: 98px;
+    margin-top: 26px;
+    font-family: "Teko", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+  }
+  .second-B{
+    color: black;
+    margin-left: 123px;
+    margin-top: 26px;
+    font-family: "Teko", sans-serif;
+    font-weight: 300;
+   font-size: 30px;
+  }
+  .third-B{
+    color: black;
+    margin-left: 120px;
+    margin-top: 26px;
+    font-family: "Teko", sans-serif;
+    font-weight: 300;
+   font-size: 30px;
+  }
+  .para-B{
+    color: black;
+    margin-left: 62px;
+margin-top: 74px;
+font-family: "Barlow",sans-serif;
+    font-weight: 300;
+  }
+  .white{
+    margin-top: -207px;
+  }
+  .tigershroof{
+    padding-left: 190px;
+    height: 500px;
+  }
+  .tigerkawhitebackground{
+    padding-bottom: -10px;
+  }
+  .footer{
+    background-image: url(./Footer.png);
+    background-blend-mode: overlay;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0 ,0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0 ,0.5);
+    /* height: 700px; */
+    color: white;
+    opacity: 0.9;
+  }
+  .footer-div{
+    width: 22%;
+    display: inline-block;
+    padding: 0 1rem;
+    vertical-align: text-top;
+    margin-top: 90px;
+  }
+  .footer-bold-text{
+    font-size: 30px;
+  }
+  .neeche-ja{
+    margin-top: 28px;
+  }
+  .footer-overlay{
+    padding: 4rem;
+    background-color: rgba(0, 0, 0 ,0.9);
+    padding-bottom: 10rem;
+  }
+  .instagram{
+    border-radius: 5px;
+    height: 50px;
+    
+  }
+  .facebook{
+    border-radius: 30px;
+    height: 50px;
+  }
+  .twitter{
+    height: 50px;
+    border-radius: 15px;
+  }
+  .social-link:hover{
+    background-color: #00000000;
+  }
+  .web{
+    height: 50px;
+    border-radius: 12px;
+  }
+  .last-line{
+    /* padding-left: 30px; */
+    text-align: center;
+    padding-top: 200px;
+  }
